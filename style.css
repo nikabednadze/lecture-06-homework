@@ -1,0 +1,58 @@
+/*
+ვებსაიტი: ფონტები და CSS
+გამოყენებული ფონტები: Roboto და Open Sans.
+Roboto ჩატვირთულია ლოკალურად, Open Sans კი Google Fonts-იდან.
+*/
+/* ===== საერთო სტილები ===== */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ===== ჰედერი ===== */
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* ===== მენიუ ===== */
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* ===== მთავარი ნაწილი ===== */
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ===== Footer ===== */
+
+footer {
+    margin-top: 20px;
+}
+
